@@ -6,24 +6,32 @@
 	<style>
 		.trash {
 			display: none;
-			height: 75px
+			height: 50px
+		}
+
+		.trashdiv {
+			height: 350px;
+			position: absolute;
+			top: 250px;
+			left: 650px;
+			display: none
 		}
 	</style>
 </head>
 <body style="color: white">
 	<div class="col-12 bg-dark">
         <div class="col-8 mx-auto row p-0">
-            <div class="col-3 pt-2">
-                <img src="logo.png" class="w-100">
+            <div class="col-3 p-3">
+                <img src="logo.png" style="height: 50px">
             </div>
             <div class="col-9 row pt-4">
-                <p class="text-white ml-5">МАГАЗИН</p>
-                <p class="text-white ml-5">СООБЩЕСТВО</p>
-                <p class="text-white ml-5">UNKNOWN</p>
-                <p class="text-white ml-5">ЧАТ</p>
-                <p class="text-white ml-5">ПОДДЕРЖКА</p>
-                <p class="text-white ml-5 trashtxt">КОРЗИНА: <span class="counttxt">0</span></p>
-                <p class="text-white ml-5">СУММА: <span class="sumtxt">0</span> руб.</p>
+                <p class="text-white ml-4">МАГАЗИН</p>
+                <p class="text-white ml-4">СООБЩЕСТВО</p>
+                <p class="text-white ml-4">UNKNOWN</p>
+                <p class="text-white ml-4">ЧАТ</p>
+                <p class="text-white ml-4">ПОДДЕРЖКА</p>
+                <p class="text-white ml-4 trashtxt">КОРЗИНА: <span class="counttxt">0</span></p>
+                <p class="text-white ml-4">СУММА: <span class="sumtxt">0</span> руб.</p>
             </div>
         </div>
     </div>
@@ -31,12 +39,12 @@
 
     </div>
 	<div class="col-12" style="background: #1B2838">
-		<div class="col-8 mx-auto pt-3" style="height: 1200px;">
-			<div class="col-12 " style="height: 320px;">
+		<div class="col-8 mx-auto pt-3">
+			<div class="col-12">
 				<strong>Популярное и рекомендуемое</strong>
 				<div class="row ">
-					<div class="col-7 " style="height: 300px;">
-						<img src="punk.jpg" style="width: 100%; height: 100%">
+					<div class="col-7">
+						<img src="punk.jpg" style="width: 100%;">
 					</div>
 					<div class="col-5 " style="height: 300px;">
 						<strong>Cyberpunk 2077</strong>
@@ -59,54 +67,54 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 mt-3" style="height: 500px;">
+			<div class="col-12 mt-3">
 				<strong>Библиотека игр</strong>
-				<div class="col-12 " style="height: 220px;">
+				<div class="col-12 p-0" style="height: 250px;">
 					<div class="row">
 						<div class="col-4 ">
-							<img src="doom.jpg" class="w-100">
-							<button class="btn btn1 btn-info" >Купить за 1999 руб</button>
-							<img src="trash.png" class="trash">
+							<img src="sonic.jpg" class="w-100">
+							<button class="btn btn1 btn-info mt-2">Купить за 699 руб</button>
+							<img src="trash.png" class="trash mt-2">
 						</div>
 						<div class="col-4 ">
-							<img src="skyrim.jpg" class="w-100">
-							<button class="btn btn1 btn-info" >Купить за 1399 руб</button>
-							<img src="trash.png" class="trash">
+							<img src="among.jpg" class="w-100">
+							<button class="btn btn1 btn-info mt-2">Купить за 133 руб</button>
+							<img src="trash.png" class="trash mt-2">
 						</div>
 						<div class="col-4 ">
-							<img src="cod.png" class="w-100">
-							<button class="btn btn1 btn-info" >Купить за 400 руб</button>
-							<img src="trash.png" class="trash">
+							<img src="p4.jpg" class="w-100">
+							<button class="btn btn1 btn-info mt-2">Купить за 1199 руб</button>
+							<img src="trash.png" class="trash mt-2">
 						</div>
 					</div>
 				</div>
-				<div class="col-12 " style="height: 220px;">
+				<div class="col-12 p-0" style="height: 250px;">
 					<div class="row">
 						<div class="col-4 ">
-							<img src="gta.jpg" class="w-100">
-							<button class="btn btn1 btn-info" >Купить за 400 руб</button>
-							<img src="trash.png" class="trash">
+							<img src="gtasa.jpg" class="w-100">
+							<button class="btn btn1 btn-info mt-2">Купить за 499 руб</button>
+							<img src="trash.png" class="trash mt-2">
 						</div>
 						<div class="col-4 ">
-							<img src="vedmak.jpg" class="w-100">
-							<button class="btn btn1 btn-info" >Купить за 400 руб</button>
-							<img src="trash.png" class="trash">
+							<img src="fall.jpg" class="w-100">
+							<button class="btn btn1 btn-info mt-2">Купить за 465 руб</button>
+							<img src="trash.png" class="trash mt-2">
 						</div>
 						<div class="col-4 ">
-							<img src="rdr2.png" class="w-100">
-							<button class="btn btn1 btn-info" >Купить за 400 руб</button>
-							<img src="trash.png" class="trash">
+							<img src="terraria.jpg" class="w-100">
+							<button class="btn btn1 btn-info mt-2">Купить за 249 руб</button>
+							<img src="trash.png" class="trash mt-2">
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-12 mt-3 " style="height: 320px;">
-				<strong class="ml-3">Сообщество рекомендует</strong>
-				<div class="row ">
-					<div class="col-8  pl-0 pr-0" style="height: 300px;">
+				<strong>Сообщество рекомендует</strong>
+				<div class="row p-0 mx-auto">
+					<div class="col-8 p-0" style="height: 300px">
 						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/41FRpY-JcN4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
-					<div class="col-4 " style="height: 300px;">
+					<div class="col-4" style="height: 300px">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -118,13 +126,13 @@
 			</div>
 		</div>
 	
-	<div class="col-8 mx-auto" style="height: 1000px">
+	<div class="col-8 mx-auto mt-5" style="height: 1000px">
 			<div class="col-12">
 				<div class="row mx-auto">
-					<div class="col-10 p-0">
-						<h3 class="text-white">Трансляции игр</h3>
+					<div class="col-10 pt-3">
+						<strong>Трансляции игр</strong>
 					</div>
-					<div class="col-2 p-0">
+					<div class="col-2">
 						<button class="btn btn-dark w-100" style="border: 1px solid white">ПОКАЗАТЬ ВСЕ</button>
 					</div>
 				</div>
@@ -177,7 +185,7 @@
 								<div class="col-12 p-0" style="background-image: url(6.jpg); height: 225px; background-size: 100% 100%">
 									<img src="btn.png" style="position: absolute; top: 80px; left: 150px">
 								</div>
-								<div class="col-12 pt-4 pl-2" style="height: 75px">
+								<div class="col-12 pt-5 pl-2" style="height: 75px">
 									<p class="text-white">The Dungeon Of Naheulbeuk: The Amulet Of Chaos</p>
 								</div>
 							</div>
@@ -196,9 +204,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-4 bg-dark trashdiv" style="height: 350px; position: absolute; top: 250px; left: 650px; display: none;">
+	<div class="col-4 bg-dark trashdiv shadow">
 		<h3 class="text-white">КОРЗИНА</h3>
-		<p class="text-white gametxt"></p>
+		<p class="text-white gametxt">0</p>
+		<button class="btn-light btn exit">Exit</button>
 	</div>
 	<script type="text/javascript">
 		let btn = document.querySelectorAll('.btn1');
@@ -207,11 +216,13 @@
 		let count = 0;
 		let sumtxt = document.querySelector('.sumtxt');
 		let sum = 0;
-		let cost = [1999, 1399, 400, 400, 400, 400];
-		let games = ['Doom', 'Skyrim', 'Call Of Duty', 'Grand Theft Auto V', 'The Witcher', 'Red Dead Redemption 2']
+		let cost = [699, 133, 1199, 499, 465, 249];
+		let games = ['Sonic Mania', 'Among Us', 'Persona 4 Golden', 'Grand Theft Auto: San Andreas', 'Fall Guys', 'Terraria']
 		let trashtxt = document.querySelector('.trashtxt');
 		let trashdiv = document.querySelector('.trashdiv');
 		let gametxt = document.querySelector('.gametxt');
+		let exit = document.querySelector('.exit');
+		gametxt.innerHTML = '';
 		for(let i=0; i<6; i++){
 			btn[i].onclick = function() {
 				btn[i].style.display = 'none';
@@ -220,14 +231,15 @@
 				counttxt.innerHTML = count;
 				sum = sum + cost[i];
 				sumtxt.innerHTML = sum;
+				gametxt.innerHTML = gametxt.innerHTML + ' ' + games[i];
 			}
 		}
 		trashtxt.onclick = function() {
 			trashdiv.style.display = 'block';
-			for(let i=0; i<6; i++){
-				let game = game + games[i];
-				gametxt.innerHTML = game;
-			}
+		}
+
+		exit.onclick = function() {
+			trashdiv.style.display = 'none';
 		}
 	</script>
 </body>
